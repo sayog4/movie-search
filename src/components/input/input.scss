@@ -1,0 +1,23 @@
+.form {
+  padding: 2rem;
+  max-width: 450px;
+  margin: 0 auto;
+  &__btn {
+    padding: 0.8rem 3rem;
+    background-color: #3ca55c;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 0.8rem;
+    transition: all 0.2s;
+    &:hover {
+      background-color: #b5ac49;
+      color: #fff;
+    }
+  }
+  &__input {
+    padding: 0.7rem 0;
+    font-family: inherit;
+    border: 1px solid #000;
+  }
+}
